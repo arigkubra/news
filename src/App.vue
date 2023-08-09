@@ -3,7 +3,8 @@
   <!-- <News />
   <Buttons />
   <AboutContent /> -->
-  
+  <router-view></router-view>
+
   <Footer />
 </template>
 
