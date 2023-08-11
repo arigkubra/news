@@ -1,10 +1,12 @@
 <template>
-    <h1>Butona bas Ali Cabbar</h1>
+    <div class="button">{{ buttonContent }}</div>
 </template>
 
 
 <script>
 export default{
-    components: 'Buttons'
+    props:[
+        buttonContent
+    ]
 }
 </script>
