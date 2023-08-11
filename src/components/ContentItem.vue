@@ -1,14 +1,21 @@
 <template>
-    <div class="w-96 h-96 mx-16 my-10 p-5 bg-customBlue text-white">
+    <div class="w-96 h-96 mx-16 my-10 p-5 bg-customBlue text-white rounded-lg">
         
         <p class="h-16 flex justify-center items-center text-sm font-bold bg-white text-black">{{ post.title }}</p>
         <p class="text-xs mt-5">{{ post.content }}</p>
         <p class="text-xs">{{ post.date }}</p>
+        <Buttons />
+        
     </div>
 </template>
 
 <script>
+import Buttons from './Buttons.vue';
+
 export default{
+  components: { 
+    Buttons
+ },
     props: ['post']
 }
 </script>
