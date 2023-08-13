@@ -8,8 +8,10 @@
     Son Dakika Haberleri
   </div>
   <div class="flex justify-center">
-    <ContentItem v-for="post in posts" :key="post.date" :post="post"
+    <ContentItem v-for="post in posts" :key="post.date" :post="post" 
+    
      />
+     
   </div>
   
 </template>
@@ -27,7 +29,7 @@ export default{
       { date: 2, title: 'Ali Cabbar Evlendi!', content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget bibendum ipsum. Fusce at turpis vel libero elementum rhoncus. Nullam scelerisque, libero vel porttitor blandit, justo felis tristique sapien, eget ullamcorper nunc libero nec velit'},
       { date: 3, title: 'Bilgisayar Fiyatlarında Artış!', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget bibendum ipsum. Fusce at turpis vel libero elementum rhoncus. Nullam scelerisque, libero vel porttitor blandit, justo felis tristique sapien, eget ullamcorper nunc libero nec velit'},
       { date: 4, title: 'Gök Tengri Sıcakları Geliyor!', content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget bibendum ipsum. Fusce at turpis vel libero elementum rhoncus. Nullam scelerisque, libero vel porttitor blandit, justo felis tristique sapien, eget ullamcorper nunc libero nec velit'},
-
+      
     ]}
     
   }
