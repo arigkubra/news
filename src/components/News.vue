@@ -1,5 +1,5 @@
 <template>
-    <h1>Haber al Ali Cabbar</h1>
+    
 </template>
 
 

@@ -16,13 +16,11 @@
 </template>
 
 <script>
-import NewsDetailView from "@/views/NewsDetailView.vue";
 import Buttons from "./Buttons.vue";
 
 export default {
   components: {
     Buttons,
-    NewsDetailView
 },
   data(){
     return {
@@ -33,7 +31,7 @@ export default {
   methods: {
     handleButtonClick(){
         this.buttonClicked = true,
-        this.selectedPost = post
+        this.selectedPost = this.post
     }
     
   },

@@ -1,7 +1,21 @@
 <template>
-    <div>Bu news view'ün çalıştığını gösteriyor</div>
-  </template>
+    <ContentItem />
+    <ContentItem />
+    <ContentItem />
+    <ContentItem />
+    <ContentItem />
+    <ContentItem />
+    <ContentItem />
+    <ContentItem />
+    <ContentItem />
+</template>
   
-  <script>
+<script>
 
-  </script>
+import ContentItem from '@/components/ContentItem.vue';
+export default{
+  components: {
+    ContentItem,
+}
+}
+</script>
